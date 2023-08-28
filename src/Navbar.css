@@ -1,0 +1,32 @@
+
+h1{
+    font-size: 70px;
+    font-family: 'Space Mono', monospace;
+}
+img{
+    margin-top: 50px;
+    image-background:  rgb(218, 115, 115);
+}
+.nav-items{
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(252, 252, 252);
+    min-width: 100vh;
+}
+body{
+    background-color: rgb(231, 172, 95);
+}
+#s1{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    /* background-color: rgb(53, 186, 190); */
+}
