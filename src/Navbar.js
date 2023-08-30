@@ -1,5 +1,8 @@
 import google from "./Assets/google.png";
 import "./Navbar.css";
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/js/bootstrap.min.js'; 
 function Navbar() {
   return (
     <div>
@@ -22,7 +25,7 @@ function Navbar() {
           </p>
         </section>
       </main>
-      <footer>Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</footer>
+      <footer><marquee>Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</marquee></footer>
     </div>
   );
 }
